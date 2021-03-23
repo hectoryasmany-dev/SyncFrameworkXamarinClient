@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncFrameworkXamarinClient", "SyncFrameworkXamarinClient\SyncFrameworkXamarinClient.csproj", "{9CB77EA8-6853-4E81-8ED5-4F84A5AFA3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncFrameworkXamarinClient.Android", "SyncFrameworkXamarinClient.Android\SyncFrameworkXamarinClient.Android.csproj", "{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A2C3BA5-FCCA-463A-8006-864E58EE5AAB}"
+	ProjectSection(SolutionItems) = preProject
+		packages.config = packages.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orm", "Orm\Orm.csproj", "{4F1D5122-588D-4BDE-BE88-F5099753AD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CB77EA8-6853-4E81-8ED5-4F84A5AFA3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB77EA8-6853-4E81-8ED5-4F84A5AFA3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB77EA8-6853-4E81-8ED5-4F84A5AFA3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB77EA8-6853-4E81-8ED5-4F84A5AFA3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010221D4-F1DF-4F0D-9082-2DB6A78B5A7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4F1D5122-588D-4BDE-BE88-F5099753AD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1D5122-588D-4BDE-BE88-F5099753AD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1D5122-588D-4BDE-BE88-F5099753AD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1D5122-588D-4BDE-BE88-F5099753AD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7966565C-FE21-4C81-B241-373BADD1CD90}
+	EndGlobalSection
+EndGlobal

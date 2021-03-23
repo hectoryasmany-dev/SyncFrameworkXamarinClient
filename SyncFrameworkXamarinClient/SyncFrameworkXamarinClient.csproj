@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="20.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="20.2.5" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="20.2.5" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="3.1.5" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+
+    <PackageReference Include="BIT.Xpo.Providers.OfflineDataSync.Demo" Version="20.2.5.22" />
+    <PackageReference Include="BIT.Xpo.Providers.OfflineDataSync.NetworkExtensions" Version="20.2.5.22" />
+    <PackageReference Include="BIT.Data.Transfer.RestClientNet" Version="20.2.5.5840" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.6.1" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.0.0.1909" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orm\Orm.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.v20.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.2\Components\Bin\Framework\DevExpress.ExpressApp.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v20.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.2\Components\Bin\Framework\DevExpress.Persistent.BaseImpl.v20.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\ItemDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ItemsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
